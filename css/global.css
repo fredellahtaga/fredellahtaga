@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+}
+
+.main_container {
+  width:100vw;
+  height:100vh;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.home{
+  margin-left: 25vw;
+  margin-right: 15vw;
+  height: 100%;
+  padding-left: 7%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+      
+.containera {
+  height: 105vh;
+  width: 100vw;
+}
+      
+.containerb {
+        width: 100vw;
+  margin-bottom: 100px;
+}
+      
+.wallpaper {
+  position:relative;
+  width:100%;
+  margin:0;
+  left: 0;
+}
+      
+.bawah{
+  background-color: black;
+  width: 100vw;
+  height: 30vh;
+  padding-top:5% ;
+}
+      
+.wording{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+     
+.wallpaper5{
+  background-image: url('../image/water.png');
+  background-repeat: no-repeat;
+  background-size: 1600px 1300px;
+}
+
+.button {
+  width:50px;
+  height:10px;
+  margin-top: 50px;
+}
+
+.logoblack{
+  padding-left: 3%;
+  width:50vw;
+  color: black;
+}
+
+.logowhite{
+  padding-left: 3%;
+  width:50vw;
+  color: white;
+}
+
+nav {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 10;
+  padding-top: 5vh;
+}
+
+nav main a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Gotham', sans-serif;
+  margin-left:20px;
+}
+
+main {
+  margin-left: 430px;
+  margin-right: 100px;
+  background-color: black;
+}
+
+nav main a:hover {
+  color: gold;
+}
+
+section.full {
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+section.fullallcaps {
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+section .nopadding{
+  padding: 0px;
+  margin: 0px;
+}
+
+section.melayangallcaps {
+  position: absolute;
+  top: 450px;
+  width: 25%;
+  padding-left: 50px;
+  padding-top: 5px;
+  padding-right: 20px;
+  height: 200px;
+}
+
+section.melayangcolor {
+  position: absolute;
+  top: 300px;
+  width: 20%;
+  margin-left: 65%;
+  padding-left: 50px;
+  padding-top: 3%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  height: 200px;
+  background-color: white;
+}
+
+section.melayangcolumns {
+  position: absolute;
+  top: 200px;
+  width: 40%;
+  margin-left: 52%;
+  padding-left: 50px;
+  padding-top: 3%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  height: 200px;
+}
+
+section.melayangwater {
+  position: absolute;
+  top: 200px;
+  width: 37%;
+  margin-left: 55%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  height: 200px;
+}
+
+section.melayangkiri {
+  position: absolute;
+  top: 1465px;
+  width: 20%;
+  padding-top: 5px;
+  margin-left: 50px;
+  padding-right: 20px;
+  height: 300px;
+}
+
+section.melayangkirikolom {
+  position: absolute;
+  top: 865px;
+  width: 20%;
+  padding-top: 5px;
+  margin-left: 20vw;
+  padding-right: 20px;
+  height: 300px;
+}
+
+section.melayang {
+  position: absolute;
+  float: left;
+  top: 200px;
+  left: 200px;
+  width: 25%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  height: 250px;
+  background-color: white;
+}
+
+section .opacity {
+  opacity: 1.0;
+}
+
+      .homekiri{
+      height: 60vh;
+      width: 40%;
+      margin-left: 50%;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top:20vh;
+      padding-bottom: 20vh;
+      color: white;
+      background-color: black;
+        
+      }
+      
+      .homekanan{
+      height: 80vh;
+      width: 35%;
+      margin-right: 50%;
+      padding-left: 5%;
+      padding-right: 10%;
+      padding-top:13vh;
+      padding-bottom: 7vh;
+      color: white;
+      background-color:black;
+      }
+      
+      .container{
+        height: 100vh;
+        width: 100vw;
+        background-image:url('../image/i.jpg');
+        background-size: 200vh;
+        background-repeat: no-repeat;
+      }
+      
+      .container2{
+        height: 100vh;
+        width: 100vw;
+        background-image:url('../image/home2.gif');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 1000px;
+      }
+      
+      .container3{
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        background-image:url('../image/c.gif');
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 1000px;
+      }
+      
+       .container4{
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        background-image:url('../image/i.gif');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: 750px;
+      }
+      
+        .container5{
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        background-image:url('../image/5.gif');
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-size: 750px;
+      }
+      
+       .box{
+        width:200px;
+        height: 30px;
+        background-color: white;
+        margin-top: 10px;
+      }
+      
+      .image{
+      margin-top: 7%;
+      background-image: url('./image/table.jpg');
+      width: 800px;
+      height: 200px;
+      background-repeat: no-repeat;
+    }
+    
+    .image2{
+      margin-top: 7%;
+      background-image: url('./image/table2.jpg');
+      width: 800px;
+      height: 200px;
+      background-repeat: no-repeat;
+    }
+    
+    .image3{
+      margin-top:7%;
+      background-image: url('./image/table3.jpg');
+      width: 800px;
+      height: 200px;
+        background-repeat: no-repeat;
+    }
+    
+    .kiri {
+    background-color: black;
+    width: 20vw;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 16vw;
+    float: left;
+    }
+    
+    .tengah {
+    background-color: black;
+    width: 10vw;
+    margin-left: 6vw;
+    float: left;
+    }
+    
+    .isibawah{
+    width: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: black;
+    float: left;
+}
+    .print {
+      margin-top: 10%;
+    }
+    
+    .isi{
+        width: 100vw;
+        height: 80vh;
+      }
+      
+    .waterfull{
+    height:80vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top:20vh;
+    background-color: black;
+        
+      }
+      
+  
+  
+  
+@media (max-width: 1024px) {
+ 
+  nav {
+    height:80px;
+    margin-left: 0px;
+    margin-right:auto;
+  }
+  
+  .all{
+    width: 100vw;
+  }
+  
+  .fullcolor{
+    width: 100vw;
+    height: 30vh;
+  }
+  
+  section {
+    width: 100vw;
+    height: 20vh;
+  }
+  
+  section.melayangallcaps{
+   padding: 0px;
+   width: 40%;
+   top: 50px;
+   left:50px;
+  }
+   
+  section.melayangcolor{
+   padding: 0px;
+   width: 40%;
+   margin-left: 35%;
+   top: 70px;
+   left:50px;
+   padding-left: 3%;
+   padding-right: 3%;
+  }
+  
+  section.melayangcolumns{
+   padding: 0px;
+   width: 40%;
+   top: 50px;
+   left:50px;
+   margin-left: 42%;
+  }
+  
+  section.melayangwater{
+  padding: 0px;
+  width: 40%;
+  top: 50px;
+  left:50px;
+  margin-left: 45%;
+  }
+  
+  main {
+  width: 50vw;
+  background-color: black;
+  }
+
+  .containera {
+   height: 50vh;
+   width: 100vw;
+   background-repeat: no-repeat;
+   background-position: center;
+  }
+
+  section.melayangkiri{
+    width: 100px;
+    padding-left: 5%;
+  }
+  
+  .home{
+    margin-left: 30vw;
+    margin-right: 10vw;
+    padding-right: 0px;
+  }
+  
+  .bawah{
+    width: 100vw;
+    height:65vh;
+    background-color: black;
+    padding-top: 8%;
+  }
+  
+  .isibawah{
+  float: left;
+  width: 25vw;
+  }
+  
+  .box{
+    width: 120px;
+    height: 20px;
+  }
+  
+  .homekiri{
+    height: 80vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+  }
+  
+  .homekanan{
+    height:110vh;
+    padding-top: 20px;
+  }
+  
+  .container2{
+    height: 110vh;
+    background-size: 150vh;
+  }
+  
+  .container{
+  height: 85vh;
+  background-size: 100vh;
+   background-position: center bottom;
+  
+  }
+  
+  .container3{
+    height: 80vh;
+  }
+  
+  .container5{
+   height: 50vh;
+   background-position: left;
+   background-size: 30vh;
+  }
+  
+  .container4{
+  height: 80vh;
+  background-size: 30vh;
+  background-position: right;
+  }
+  
+  .box{
+    width: 140px;
+  }
+  
+  .image, .image2, .image3{
+      margin-top: 7%;
+      width: 200px;
+      height:50px;
+      background-size: 30vh;
+  }
+  
+  .containera {
+    height: 40vh;
+    background-position: bottom;
+  }
+  
+  .containerb{
+    margin-top: 10px;
+  }
+  
+    .kiri {
+    width: 55vw;
+    padding-left: 4%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    }
+    
+    .tengah {
+    width: 60vw;
+    padding-right: 20%;
+    padding-left: 14%;
+    padding-bottom: 5%;
+    }
+    
+    .isibawah {
+    width: 60vw;
+    padding-left: 20%;
+    padding-right: 20%;
+    }
+    
+  section .melayangkiri{
+    margin-left: 15px;
+    padding: 0px;
+  }
+    
+  section.melayangkirikolom {
+  position: absolute;
+  top: 290px;
+  width: 20%;
+  padding-top: 5px;
+  margin-left: 35px;
+  padding-right: 20px;
+  height: 300px;
+}
+
+    .isi{
+    width: 100vw;
+    height: 40vh;
+}
+      
+    .waterfull{
+    height:40vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 7vh;
+    background-color: black;
+        
+      }
+   
+}

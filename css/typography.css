@@ -1,0 +1,317 @@
+h1{
+  font-family:'proxima nova', sans-serif;
+  font-size:24pt;
+  text-align:left;
+  margin-top: 30px;
+  color: white;
+}
+
+h2 {
+  font-family:'neuzeit', sans-serif;
+  font-size:30px;
+  padding-bottom: 10px;
+  text-align:left;
+  color: black;
+}
+
+h3 {
+  font-family:'neuzeit grotesk light', sans-serif;
+  color: black;
+}
+
+h4 {
+  font-size: 13.5pt;
+  padding-top: 5%;
+  font-family: neuzeit grotesk light;
+  
+}
+
+h5 {
+  font-size: 9pt;
+  font-family: neuzeit grotesk light;
+}
+
+li {
+  font-size: 13.5pt;
+  font-family: neuzeit grotesk light;
+  padding-top: 3%;
+}
+
+.home h2 {
+  font-size: 30px;
+  padding: 0px;
+  text-align: center;
+  background-color: black;
+  margin-top:3%;
+  color: white;
+}
+
+.home h4 {
+  text-align:left;
+  font-size:16pt;
+  font-family: neuzeit grotesk light;
+  color: black;
+}
+
+.box h5{
+  padding-left: 5%;
+  padding-top: 4%;
+  color: gray;
+}
+
+.melayangallcaps h1{
+  font-size: 45pt;
+  color: black;
+  padding-bottom: 2%;
+  background-color: gold;
+}
+
+.melayangallcaps h3{
+  font-size: 18pt;
+  color: black;
+  padding-bottom: 0px;
+}
+
+.melayangcolor h1{
+  font-size: 50pt;
+  color: black;
+  padding-bottom: 0px;
+}
+
+.melayangcolor h3{
+  font-size: 14pt;
+  color: black;
+  padding-left: 2%;
+}
+
+.melayangcolor h4{
+  padding-top:0px;
+  padding-bottom: 7%;
+  padding-left: 3%;
+}
+
+.melayangcolumns h1{
+  padding-top:0px;
+  padding-bottom: 7%;
+  padding-left: 3%;
+  color: white;
+  font-size: 50pt;
+}
+.melayangcolumns h3{
+  font-size: 14pt;
+  color: white;
+  padding-top:0px;
+  padding-left: 4%;
+}
+
+.melayangwater h1{
+  font-size: 48pt;
+  color: white;
+  padding-top:0px;
+  padding-left: 4%;
+  background-color: black;
+}
+
+.melayangwater h2{
+  font-size: 14pt;
+  color: white;
+  text-align: center;
+  background-color: blue;
+}
+
+.melayangkiri h3{
+  font-size: 14pt;
+  color: black;
+  padding-bottom: 0px;
+}
+
+.bawah h4{
+  text-decoration: bold;
+  padding-top: 0%;
+  color: white;
+}
+
+.bawah h5{
+  text-decoration: bold;
+  color: white;
+}
+
+.box h5{
+  text-decoration: bold;
+  color: lightgray;
+}
+
+.kiri, .tengah,.isibawah h4{
+  padding-top: 0px;
+}
+
+.print h2 {
+  font-size: 18pt;
+}
+
+section .melayangkirikolom h3 {
+  text-decoration: bold;
+  font-size: 18pt;
+}
+
+.waterfull h4{
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-family:'proxima nova', sans-serif;
+    font-size:18pt;
+    text-align:left;
+    padding-top: 3%;
+ }
+ 
+
+  main {
+  margin-right: 7%;
+  width: 100vw;
+  margin-left: 0px;
+}
+ 
+ nav main a{
+   font-size: 8pt;
+   margin-left: 2%;
+   margin-right: 2%
+   align-items: right;
+   
+ }
+ 
+ nav {
+   margin-left: 0px;
+   margin-right: 0px;
+   padding-top:5%;
+   width: 100vw;
+ }
+ 
+ h4 {
+   font-size: 8pt;
+   font: raleway;
+   padding-top: 7%;
+   
+ }
+ 
+  h5 {
+   font-size: 6pt;
+   font: raleway;
+   
+ }
+ 
+ section {
+   width: 100vw;
+   height: 50vh;
+ }
+ 
+ .melayangallcaps h1{
+  font-size: 18pt;
+  color: black;
+  padding-bottom: 2%;
+  background-color: gold;
+}
+ 
+ .melayangallcaps h2{
+  font-size: 18pt;
+}
+
+.melayangallcaps h3{
+  font-size: 13.5pt;
+  color: black;
+  padding-bottom: 0px;
+}
+
+.melayangcolor h1{
+  font-size: 28pt;
+  color: black;
+  padding-bottom: 2%;
+}
+
+.melayangcolor h3{
+  font-size: 9pt;
+  color: black;
+  padding-bottom: 0px;
+}
+
+.melayangcolumns h1{
+  padding-top:0px;
+  padding-bottom: 7%;
+  padding-left: 3%;
+  color: white;
+  font-size: 15pt;
+}
+
+.melayangcolumns h3{
+  padding-top:0px;
+  padding-bottom: 7%;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: white;
+  font-size: 12pt;
+}
+
+.melayangcolumns h4 {
+  font-size: 13.5pt;
+}
+
+.melayangwater h1{
+  font-size: 18pt;
+  color: white;
+  padding-top:0px;
+  padding-left: 4%;
+  background-color: black;
+}
+
+.melayangwater h2{
+  font-size: 9pt;
+  color: white;
+  text-align: center;
+  padding:0px;
+  background-color: blue;
+}
+
+section.melayangkiri h3{
+  font-size: 10pt;
+  color: black;
+  padding-bottom: 0px;
+}
+
+.home h4{
+  font-size: 11pt;
+}
+
+.homekiri h1{
+  margin-top: 5px;
+}
+
+.wallpaper5 {
+    width: 100vw;
+    height: 40vw;
+    object-fit: cover;
+  }
+  
+.bawah h4{
+  text-decoration: bold;
+  color: white;
+  padding-top:5%;
+  text-align:left ;
+}
+
+.bawah h5{
+  color: white;
+  padding-top:5%;
+  text-align: left;
+}
+
+.home h2{
+  font-size: 15pt;
+}
+
+section .melayangkirikolom h3 {
+  text-decoration: bold;
+  font-size: 14pt;
+}
+
+}
